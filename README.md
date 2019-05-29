@@ -10,12 +10,12 @@ This web application provides easy access to carpooling and rideshare services f
 ## Flask Application
 
 The application is coded up using Python Flask with the following routes:
-    * /signup/driver
-    * /signup/rider
-    * /login
-    * /logout
-    * /ride
-    * /drive
+   * /signup/driver
+   * /signup/rider
+   * /login
+   * /logout
+   * /ride
+   * /drive
   
 ## Database
 
