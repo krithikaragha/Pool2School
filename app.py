@@ -14,4 +14,8 @@ mysql = MySQL(app)
 def index():
     return render_template("index.html")
 
+@app.route("/driver/signup")
+def signup_driver():
+    return render_template("driver-signup.html")
+
 

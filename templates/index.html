@@ -11,6 +11,7 @@
     <title>Pool2School</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- Main CSS -->
     <link rel=stylesheet type=text/css href="{{ url_for('static', filename='css/style.css') }}">
     <link rel=stylesheet type=text/css href="{{ url_for('static', filename='css/flaticon.css') }}">
   </head>
@@ -23,12 +24,12 @@
           <div class="row">
             <div class="col-lg-12">
               <div class="banner_content text-center">
-                <h3 style="font-size: 210%;">POOL2SCHOOL</h3>
-                <h2 class="text-uppercase mt-4 mb-5">
-                  #1 Carpool Service For Students
+                <h3 style="font-size: 210%; font-family: Rubik, sans-serif; font-weight: 500; color: #fff;">POOL2SCHOOL</h3>
+                <h2 style="font-size: 300%; font-family: Rubik, sans-serif; font-weight: 500; color: #fff;">
+                  #1 RIDESHARE APP FOR SJSU
                 </h2>
                 <div>
-                  <a href="driver-signup.html" class="primary-btn2 mb-3 mb-sm-0">Driver SignUp</a>
+                  <a href="/driver/signup" class="primary-btn2 mb-3 mb-sm-0">Driver SignUp</a>
                   <a href="rider-signup.html" class="primary-btn ml-sm-3 ml-0">Rider SignUp</a>
                 </div>
               </div>
@@ -40,11 +41,12 @@
     <!--================ End Home Banner Area =================-->
 
     <!--================ Start footer Area  =================-->
-    <footer class="footer-area section_gap">
-      <p class="col-lg-8 col-sm-12 footer-text m-0 text-white">
-        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->  
-      <center><p>Copyright© 2019. All Rights Reserved</p></center>
-      </p>
+    <footer class="page-footer">
+      <div align="center">
+        <div class="container">
+          &copy; <script>document.write(new Date().getFullYear())</script> <a font color="white">Copyright© 2019. All Rights Reserved.</a>
+        </div>
+      </div>
     </footer>
     <!--================ End footer Area  =================-->
     <!-- Bootstrap JS -->
