@@ -11,8 +11,8 @@
 ## Flask Application
 
 The application is coded up using Python Flask with the following routes:
-   * /signup/driver
-   * /signup/rider
+   * /driver/signup
+   * /rider/signup
    * /login
    * /logout
    * /ride
