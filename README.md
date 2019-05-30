@@ -20,7 +20,7 @@ The application is coded up using Python Flask with the following routes:
   
 ## Database
 
-The application will have a MySQL database on the backend. There will be two different tables - one for drivers and one for riders that will store the following details:
+The application has a MySQL database on the backend. There are two different tables - one for drivers and one for riders that will store the following details:
   * Firstname
   * Lastname
   * Email
@@ -32,7 +32,7 @@ The application will have a MySQL database on the backend. There will be two dif
   
 ## Technologies 
 
-The following technologies will be used in creating this web application:
+The following technologies are used in creating this web application:
   * HTML5 
   * CSS3 / Bootstrap
   * JavaScript
